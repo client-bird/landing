@@ -2431,9 +2431,9 @@ ul {
   .navbar-collapse {
     z-index: 9999 !important;
     position: absolute;
-    left: 0;
-    top: 50px;
-    width: 100%;
+    left: -15px;
+    top: 55px;
+    width: calc(100% + 30px);
     background-color: #fff;
     text-align: center !important;
   }
@@ -2514,10 +2514,10 @@ ul {
 @media (max-width: 576px) {
   /* line 229, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
   .navbar-brand img {
-    max-width: 100px;
+    max-width: 180px;
     right: auto;
     left: 0;
-    top: 5px;
+    top: -10px;
   }
   /* line 236, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
   .navbar-light .navbar-toggler {
@@ -2622,7 +2622,7 @@ ul {
 
 /* line 325, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
 .menu_fixed .main-menu-item ul li .nav-link {
-  color: #fff !important;
+  color: #fff;
 }
 
 /* line 330, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
