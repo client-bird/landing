@@ -157,7 +157,7 @@
 
 				@media #{$medium_device} {}
 
-				@include transform_time(.5s);
+				@include transform_time(.25s);
 
 				:hover {
 					color: $btn_bg;
@@ -196,7 +196,7 @@
 
 	.copyright_text p a {
 		color: $btn_bg;
-		@include transform_time(.5s);
+		@include transform_time(.25s);
 
 		&:hover {
 			color: $btn_bg;

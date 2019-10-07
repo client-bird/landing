@@ -15,7 +15,7 @@
 	text-align: center;
 	border: 1px solid $border_color;
 	cursor: pointer;
-	@include transform_time(0.5s);
+	@include transform_time(0.25s);
 	&:hover{
 		background: transparent;
 		
@@ -30,7 +30,7 @@
 	font-family: $font_stack_2;
 	font-weight: 500;
 	color: $heading_color;
-	@include transform_time(0.5s);
+	@include transform_time(0.25s);
 	text-transform: uppercase;
 	border: 1px solid $primary_color;
 
@@ -64,7 +64,7 @@
 	font-family: $font_stack_2;
 	font-weight: 500;
 	color: $white_color;
-	@include transform_time(0.5s);
+	@include transform_time(0.25s);
 	text-transform: uppercase;
 	border: 2px solid $primary_color;
 	&:hover{
@@ -120,7 +120,7 @@
 	text-transform: uppercase;
 	background-color: $btn_bg;
 	cursor: pointer;
-	@include transform_time(0.5s);
+	@include transform_time(0.25s);
 
 	@media(max-width: 767px){
 		font-size: 13px;
