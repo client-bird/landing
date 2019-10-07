@@ -144,6 +144,28 @@
             bottom: 0%;
         }
     }
+
+    @keyframes bannerImg {
+        from {
+            transform: translateY(-10px);
+        }
+
+        50% {
+            transform: translateY(10px);
+        }
+
+        to {
+            transform: translateY(-10px);
+        }
+    }
+
+    .banner_img {
+        animation-name: bannerImg;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-duration: 2.5s;
+        animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    }
 }
 
 /**************** hero part css end ****************/
